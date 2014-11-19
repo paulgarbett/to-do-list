@@ -45,4 +45,33 @@ describe User do
 
     it { should ensure_length_of(:email).is_at_most(255)}
 
+
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

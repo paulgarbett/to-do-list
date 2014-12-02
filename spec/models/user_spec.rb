@@ -45,6 +45,8 @@ describe User do
 
     it { should ensure_length_of(:email).is_at_most(255)}
 
+    #add test for have_many assocaiton
+    it { should have_many(:lists) }
 
 end
 
